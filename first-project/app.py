@@ -49,7 +49,7 @@ def delete_store(store_id):
 
 
 # Item API Routes
-
+ 
 @app.get('/item')
 def get_all_items():
     return {"stores": list(items.values())}
